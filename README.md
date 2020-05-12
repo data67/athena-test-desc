@@ -11,3 +11,4 @@ athena应用使用Wildfly容器，版本建议使用19.0.0.Final。[下载地址
 >7.切换到应用样例目录，运行mvn clean package打包，打包出的ear包，在athena-app-a1s2d3f4-parent/athena-app-a1s2d3f4-ear/target目录下，名为athena-app-a1s2d3f4-ear-1.0.0.Final-SNAPSHOT.ear  
 >8.将ear包复制到wildfly-19.0.0.Final/standalone/deployments目录下进行部署  
 >9.浏览器访问http://localhost:8080/athena-app/local_resource/swagger-api.html  
+测试应用时，停止服务，测试数据会自动删除。每次启动，都是全新的开始
