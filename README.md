@@ -32,3 +32,5 @@ athena-module-user的验收测试为[athena-test-module-user](https://github.com
 1. 克隆验收测试代码：git clone https://github.com/data67/athena-test-module-user.git
 2. 切换到athena-test-module-user目录
 3. mvn clean test
+
+我们的验收测试，使用[rest-assured](https://github.com/rest-assured/rest-assured)
