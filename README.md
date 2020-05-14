@@ -12,8 +12,8 @@ athena应用使用Wildfly容器作为应用服务器，版本建议使用19.0.0.
 准备本地应用服务器：  
 1. 安装git-scm [下载地址](https://git-scm.com/) （Unix环境不需要安装此工具；我们在Windows系统上进行测试的时候，会使用工具git-scm,这个工具为我们提供bash环境和git命令）  
 2. 下载并解压wildfly19 [下载地址](https://wildfly.org/)  
-3. 将本库中的run.sh放在解压出的wildfly-19.0.0.Final目录下  
-4. 用本库中的standalone-full.xml替换解压的wildfly-19.0.0.Final/standalone/configuration/standalone-full.xml文件  
+3. 将本库中的[run.sh](https://github.com/data67/athena-test-desc/blob/master/run.sh) 放在解压出的wildfly-19.0.0.Final目录下  
+4. 用本库中的[standalone-full.xml](https://github.com/data67/athena-test-desc/blob/master/standalone-full.xml) 替换解压的wildfly-19.0.0.Final/standalone/configuration/standalone-full.xml文件  
 5. 运行git-bash，切换到wildfly-19.0.0.Final目录，运行run.sh
 
 至此本地应用服务器准备好，浏览器访问http://localhost:8080 应该可以看到wildfly欢迎页
