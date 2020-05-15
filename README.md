@@ -25,6 +25,7 @@ athena应用使用Wildfly容器作为应用服务器，版本建议使用19.0.0.
 
 至此athena应用打包和部署完毕，浏览器访问http://localhost:8080/athena-app/local_resource/swagger-api.html 应该可以看到应用的接口信息   
 需要说明的时，应用服务器默认使用的是内存数据库，每次停止服务器后，服务器数据会自动删除。每次重启启动，都是全新的开始。如果单纯地重新部署应用（即不停服地情况下，替换ear包），不会清除数据  
+若要连接本地数据库，参考[连接本地mysql](https://github.com/data67/athena-test-desc/blob/master/mysql/README.md)
 ## 运行验收测试
 此处以athena-module-user的验收测试为例进行说明  
 athena-module-user的验收测试为[athena-test-module-user](https://github.com/data67/athena-test-module-user)  
