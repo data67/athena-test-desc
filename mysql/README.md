@@ -5,3 +5,5 @@
 3. 将本库中mysql目录下的module.xml和mysql-connector-java-5.1.40.jar放到wildfly-19.0.0.Final/modules/system/layers/base/com/mysql/connector/java/main目录下，不存在的中间目录请自行创建  
 4. 在本地mysql中创建数据库athena-app
 5. 在本地mysql中创建用户athena，密码也为athena，并授予athena用户对数据库athena-app的管理权限
+
+至此配置结束，启动服务器，表结构就会创建到mysql中
